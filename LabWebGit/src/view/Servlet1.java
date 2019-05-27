@@ -19,8 +19,11 @@ public class Servlet1 extends HttpServlet {
 
 		out.close();
 
+		out.close();
+
 		out.println("<h3>Servlet1:"+time+"</h3>");
 		out.println("<h3>Servlet1:"+time+"</h3>");
+<<<<<<< HEAD
 
 		out.println("<h3>Servlet1:"+time+"</h3>");
 
@@ -28,8 +31,9 @@ public class Servlet1 extends HttpServlet {
 
 
 
+=======
+>>>>>>> branch 'master' of https://github.com/EEIT107Team06/repository.git
 	}
-
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		this.doGet(request, response);
