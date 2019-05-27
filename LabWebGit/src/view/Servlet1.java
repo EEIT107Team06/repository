@@ -16,12 +16,18 @@ public class Servlet1 extends HttpServlet {
 		response.setContentType("text/html; charset=UTF-8");
 		PrintWriter out = response.getWriter();
 		out.println("<h3>Servlet1:"+time+"</h3>");
+
+		out.close();
+		
+		
+
 		out.println("<h3>Servlet1:"+time+"</h3>");
 		out.println("<h3>Servlet1:"+time+"</h3>");
 
 		out.println("<h3>Servlet1:"+time+"</h3>");
 
 		out.close();
+
 
 
 	}
