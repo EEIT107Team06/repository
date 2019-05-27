@@ -3,6 +3,10 @@
 /.project
 =======
 /.settings/
+<<<<<<< HEAD
+/.classpath
+/.project
+=======
 /.classpath/
 /.project/
 >>>>>>> branch 'master' of https://github.com/EEIT107Team06/repository.git
