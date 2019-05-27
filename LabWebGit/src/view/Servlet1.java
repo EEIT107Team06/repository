@@ -18,9 +18,12 @@ public class Servlet1 extends HttpServlet {
 		out.println("<h3>Servlet1:"+time+"</h3>");
 		out.println("<h3>Servlet1:"+time+"</h3>");
 		out.println("<h3>Servlet1:"+time+"</h3>");
+
 		out.println("<h3>Servlet1:"+time+"</h3>");
 
 		out.close();
+
+
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
