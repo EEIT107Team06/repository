@@ -19,7 +19,6 @@ public class Servlet1 extends HttpServlet {
 		out.close();
 	}
 
-	
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		this.doGet(request, response);
