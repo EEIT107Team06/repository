@@ -18,8 +18,6 @@ public class Servlet1 extends HttpServlet {
 		out.println("<h3>Servlet1:"+time+"</h3>");
 
 		out.close();
-		
-		
 
 		out.println("<h3>Servlet1:"+time+"</h3>");
 		out.println("<h3>Servlet1:"+time+"</h3>");
